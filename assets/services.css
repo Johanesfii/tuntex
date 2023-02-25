@@ -1,0 +1,147 @@
+.navbar-brand {
+    font-family: 'Belleza', sans-serif;
+  }
+  
+  .navbar {
+    transition: all 0.5s;
+  }
+  
+  .navbar-scrolled {
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* home */
+  .home{
+      padding: 0 !important;
+      height: cover;
+      width: 100%;
+      
+  }
+
+  .homes {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
+  
+  .homes a:hover {
+    color: #EEEEEE;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  #navbarNav {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
+  
+  #navbarNav a {
+    color: white;
+  }
+  
+  #navbarNav a:hover {
+    color: white;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: grey;
+    border-radius: 10px;
+    /* border-bottom: 4px solid; */
+  }
+
+  .hero {
+    height:100%;
+    width:100%;
+    padding: 0 !important;
+  }
+
+  .hero .content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+  }
+  
+  .hero .content h1 {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+    color: white;
+  }
+  
+
+  .gambarLatar {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+
+  .gambarLatar img {
+    width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  -webkit-filter: brightness(50%); 
+      filter: brightness(50%);
+  }
+  
+  .karosel img {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    -webkit-filter: brightness(50%); 
+    filter: brightness(50%);
+  }
+  
+  .judul h1{
+    padding-bottom: 200px;
+  }
+  
+  .judul a {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+  }
+
+@media screen and (max-width: 991px) {
+    .barisSatu {
+      margin-bottom: 50px;
+    }
+    .barisDua {
+      margin-bottom: 50px;
+    }
+
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+      }
+
+
+      .coba {  
+        position: relative;
+        width: auto;
+        margin: 0 auto;
+        overflow: hidden;  
+      }
+       
+      .kotak {
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+      }
+       
+      .kotak img {
+        -webkit-transition: 0.4s ease;
+        transition: 0.4s ease;
+        width: auto;
+      }
+       
+      .coba:hover .kotak img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }

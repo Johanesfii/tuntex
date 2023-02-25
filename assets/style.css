@@ -1,0 +1,136 @@
+.navbar-brand {
+  font-family: 'Belleza', sans-serif;
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+.navbar-scrolled {
+  background-color: black;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* home */
+.home{
+    padding: 0 !important;
+    height: cover;
+    width: 100%;
+    
+}
+
+.homes {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.homes a:hover {
+  color: #EEEEEE;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#navbarNav {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+#navbarNav a {
+  color: white;
+}
+
+#navbarNav a:hover {
+  color: white;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: grey;
+  border-radius: 10px;
+  /* border-bottom: 4px solid; */
+}
+
+.karosel img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+    -webkit-filter: brightness(50%); 
+    filter: brightness(50%);
+}
+
+.judul h1{
+  padding-bottom: 200px;
+}
+
+.judul a {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+ 
+/* 
+  @media screen and (max-width: 992px) {
+
+      
+  } */
+
+  .gambarAbout img {
+    width: 400px;
+  }
+
+  @media screen and (max-width: 991px) {
+    .gambarAbout img {
+      width: 500px;
+      margin-bottom: 50px;
+    }
+        
+    }
+
+    @media screen and (max-width: 576px) {
+      .gambarAbout img {
+        width: 300px;
+        margin-bottom: 30px;
+      }
+          
+      }
+
+
+  /* .right {
+    text-align: justify;
+    padding-right: 100px;
+  }
+
+  .right p {
+    font-size: 20px;
+  } */
+
+  @media screen and (max-width: 991px) {
+  .barisSatu {
+    margin-bottom: 50px;
+  }
+  .barisDua {
+    margin-bottom: 50px;
+  }
+      
+  }
+
+
+  .sesiDua {
+    background-color: #EEEEEE;
+  }
+
+  .our-clients {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .images-grid img {
+    width: 70%;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+  }
+  
